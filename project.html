@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Projects</title>
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link rel="stylesheet" href="style.css" />
@@ -11,18 +12,70 @@
   <body>
     <header>
       <nav>
-        <div class="nav-left">
-          <a class="home" href="index.html#home">Home</a>
-        </div>
-        <div class="nav-right">
-          <ul>
-            <li><a href="index.html#projects">Projects</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-          </ul>
-        </div>
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html/#contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
-  </head>
-</body>
+    <div class="projects-content">
+      <div class="project-content" id="lounaspaikka">
+        <div class="project-img">
+          <img src="img/lounas2.png" alt="Project Image" />
+        </div>
+        <div class="project-text">
+          <a
+            href="https://www.figma.com/design/0KPV7A7X8u8Szw8E6dRM45/Lounaspaikka?node-id=66-319&t=EU4LfNuW1EGk41hc-1"
+            target="_blank"
+            >Lounaspaikka - ruuan tilausjärjestelmä</a
+          >
+          <p>
+            Lounaspaikka on ruuan tilausjärjestelmä, joka on suunniteltu
+            helpottamaan lounaan tilaamista ja noutamista. Järjestelmässä on
+            mahdollista selata lounasravintoloita, tarkastella niiden tarjontaa
+            ja tilata ruokaa etukäteen. Järjestelmä on toteutettu Reactilla ja
+            Node.js:llä.
+          </p>
+        </div>
+      </div>
+      <div class="project-content" id="threadle">
+        <div class="project-img">
+          <img src="img/threadle2.png" alt="Project Image" />
+        </div>
+        <div class="project-text">
+          <a
+            href="https://www.figma.com/design/gTP3XBGAO0ubJS4FVdSXWA/Threadle?node-id=0-1&t=031lDzBkb0Ku8LOJ-1"
+            target="_blank"
+            >Threadle - käsitöiden markkinapaikka</a
+          >
+          <p>
+            Projektin tavoite oli luoda alusta, jossa kotimaiset käsityön
+            harrastajat ja pienyrittäjät löytyisivät helposti yhden sovelluksen
+            alta. Sovellus tarjoaa myös alustan, jossa käsitöiden tekijät voivat
+            jakaa ideoitaan ja oppia toisiltaan.
+          </p>
+        </div>
+      </div>
+      <div class="project-content" id="blender">
+        <div class="project-img">
+          <img src="img/saari.png" alt="Project Image" />
+        </div>
+        <div class="project-text">
+          <a
+            href="https://users.metropolia.fi/~elinaasa/xr-world/"
+            target="_blank"
+            >My first little Blender + ThreeJS project</a
+          >
+          <p>
+            Blenderillä ja Three.js:llä luotu 3D-maailma, jossa on
+            yksityiskohtainen 3D-mallinnettu sammakko, ja se sisältää
+            valaistuksen, materiaalit sekä kameran ohjauksen. Projekti yhdistää
+            mallinnuksen ja WebGL-tekniikat selaimessa toimivaksi kokemukseksi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
